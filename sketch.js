@@ -18,13 +18,13 @@ function setup(){
     plane = new Plane(600,height,1200,20)
     hammer = new Hammer(10,100);
 
-    rubberBall = new Rubber(30,40,60);
+    rubberBall = new Rubber(50,40,60);
 
-    largeRock = new Stone(30,100);
+    largeRock = new Stone(100,100);
     medRock = new Stone(150,60);
     smallRock = new Stone(170,130);
 
-    bigIron = new Iron(100200);
+    bigIron = new Iron(100,200);
     smallIron = new Iron(200,90);
 
 }
